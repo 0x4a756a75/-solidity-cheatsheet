@@ -41,5 +41,6 @@ npx hardhat run scripts/sample-script.js --network localhost
 ```
 Kill a Hardhat Node:
 ```bash
-npx hardhat run scripts/sample-script.js --network localhost
+ps aux | grep node
+killall -9 node
 ```
