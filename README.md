@@ -9,6 +9,7 @@ Feel free to submit a pull request, with anything from small fixes to tools you'
 ## Table of Contents
 - [Docker](#docker)
 - [Hardhat](#hardhat)
+- [IPFS](#ipfs)
 - [Slither](#slither)
 - [Ganache](#ganache)
 - [Echidna](#echidna)
@@ -43,4 +44,24 @@ Kill a Hardhat Node:
 ```bash
 ps aux | grep node
 killall -9 node
+```
+
+### IPFS
+
+Download the macOS binary from dist.ipfs.io:
+```bash
+curl -O https://dist.ipfs.io/go-ipfs/v0.11.0/go-ipfs_v0.11.0_darwin-amd64.tar.gz
+```
+Unzip the file::
+```bash
+tar -xvzf go-ipfs_v0.11.0_darwin-amd64.tar.gz
+```
+Move into the go-ipfs folder and run the install script::
+```bash
+cd go-ipfs
+sudo  ./install.sh
+```
+Check that IPFS installed:
+```bash
+ipfs --version
 ```
