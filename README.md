@@ -20,7 +20,7 @@ Feel free to submit a pull request, with anything from small fixes to tools you'
 
 ### Storage
 - [IPFS](#ipfs)
-- [Web3.Storage](#web3.storage)
+- [Web3.Storage](#web3storage)
 
 ### Smart Contract Languages
 - [Solidity](#solidity)
@@ -149,4 +149,8 @@ node put-files.js --token=<YOUR_TOKEN> ~/filename1 ~/filename2 ~/filenameN
 The command will output a CID:
 ```bash
 Content added with CID: bafybeig7sgl52pc6ihypxhk2yy7gcllu4flxgfwygp7klb5xdjdrm7onse
+```
+Get your file:
+```bash
+https://dweb.link/ipfs/YOUR_CID
 ```
