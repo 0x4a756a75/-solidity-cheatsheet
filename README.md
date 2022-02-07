@@ -148,7 +148,7 @@ node put-files.js --token=<YOUR_TOKEN> ~/filename1 ~/filename2 ~/filenameN
 ```
 The command will output a CID:
 ```bash
-Content added with CID: bafybeig7sgl52pc6ihypxhk2yy7gcllu4flxgfwygp7klb5xdjdrm7onse
+Content added with CID: bafybeib3hfwub7mljgfcsapjporh5w3jxlgc76dad3xbglw3vn4zdhshti
 ```
 Get your file:
 ```bash
