@@ -40,6 +40,10 @@ Connecting a wallet or Dapp to Hardhat Network:
 ```bash
 npx hardhat run scripts/sample-script.js --network localhost
 ```
+Let's now install the Truffle and Web3.js plugins, as well as web3.js:
+```bash
+npm install --save-dev @nomiclabs/hardhat-truffle5 @nomiclabs/hardhat-web3 web3
+```
 Kill a Hardhat Node:
 ```bash
 ps aux | grep node
